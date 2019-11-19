@@ -1,9 +1,9 @@
 #Author: Varun Mannam
 #Contributors: Yide Zhang
-#Details: Depart of Electrical engineering, The University of Notre Dame, South Bend, Indiana (IN), USA. Zip: 46556
+#Details: The Department of Electrical Engineering, The University of Notre Dame, South Bend, Indiana (IN), USA. Zip: 46556
 #email: vmannam@nd.edu
 
-Description: This is the plugin used to denoise any fluoroscene microscopic image that contains combination of Poisson-Gaussian noise. This algorithm is developed  by training the noisy images with convolutional neural networks using the U-Net architecture.
+Description: This is the plugin used to denoise any fluorescence microscopy image that contains combination of Poisson-Gaussian noise. This algorithm is developed by training the noisy microscopic images with the convolutional neural networks using the U-Net architecture.
 
 Steps to get a denoised image:
 1a. Open Fiji/ImageJ
