@@ -1,3 +1,6 @@
+Paper: Instant Image Denoising Plugin for ImageJ using Convolutional Neural Networks
+link: https://www.osapublishing.org/abstract.cfm?uri=Microscopy-2020-MW2A.3
+
 #Author: Varun Mannam
 #Contributors: Yide Zhang
 #Details: The Department of Electrical Engineering, The University of Notre Dame, South Bend, Indiana (IN), USA. Zip: 46556
