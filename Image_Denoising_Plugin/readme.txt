@@ -8,6 +8,13 @@ link: https://www.osapublishing.org/abstract.cfm?uri=Microscopy-2020-MW2A.3
 
 Description: This is the plugin used to denoise any fluorescence microscopy image that contains combination of Poisson-Gaussian noise. This algorithm is developed by training the noisy microscopic images with the convolutional neural networks using the U-Net architecture.
 
+
+Noisy Input Image:
+![]Test_images/Raw_Images/Confocal_BPAE_cell_(RGB)_raw.png
+
+Denoised Output Image: From Neural network 
+![]Test_images/Image_Denoising_results/Confocal_BPAE_cell_(RGB)_denoised.png
+
 Steps to get a denoised image:
 1a. Open Fiji/ImageJ
 1b. ImageJ -> Edit -> Options -> Tensorflow -> Choose the Tensorflow TF version based on the user system requirements (like: CPU or GPU with proper CUDA drivers)
