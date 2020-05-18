@@ -10,10 +10,12 @@ Description: This is the plugin used to denoise any fluorescence microscopy imag
 
 
 Noisy Input Image:
-![]Test_images/Raw_Images/Confocal_BPAE_cell_(RGB)_raw.png
+
+![](Test_images/Raw_Images/Confocal_BPAE_cell_(RGB)_raw.png)
 
 Denoised Output Image: From Neural network: 
-![]Test_images/Image_Denoising_results/Confocal_BPAE_cell_(RGB)_denoised.png
+
+![](Test_images/Image_Denoising_results/Confocal_BPAE_cell_(RGB)_denoised.png)
 
 Steps to generate a denoised image:
 1a. Open Fiji/ImageJ
