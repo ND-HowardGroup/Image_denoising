@@ -10,12 +10,14 @@ Description: This is the plugin used to denoise any fluorescence microscopy imag
 
 
 Noisy Input Image:
-![]Test_images/Raw_Images/Confocal_BPAE_cell_(RGB)_raw.png
 
-Denoised Output Image: From Neural network 
-![]Test_images/Image_Denoising_results/Confocal_BPAE_cell_(RGB)_denoised.png
+![](Test_images/Raw_Images/Confocal_BPAE_cell_(RGB)_raw.png)
 
-Steps to get a denoised image:
+Denoised Output Image: From Neural network: 
+
+![](Test_images/Image_Denoising_results/Confocal_BPAE_cell_(RGB)_denoised.png)
+
+Steps to generate a denoised image:
 1a. Open Fiji/ImageJ
 1b. ImageJ -> Edit -> Options -> Tensorflow -> Choose the Tensorflow TF version based on the user system requirements (like: CPU or GPU with proper CUDA drivers)
 2. Select an image in ImageJ (use open image function: File ->open)
@@ -29,5 +31,3 @@ Limitations:
 3. Speed is better in presence of GPU machine compared to the CPU version.
 4. 4D images support is not added yet this stage.
 5. GPU common errors are linking the CUDA drivers using symbolic names.
-
-

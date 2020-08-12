@@ -1,19 +1,13 @@
-Paper: Instant Image Denoising Plugin for ImageJ using Convolutional Neural Networks
-link: https://www.osapublishing.org/abstract.cfm?uri=Microscopy-2020-MW2A.3
-
+# Image_denoising
+This is the github location for image denoising ImageJ tool and its source codee
 #Author: Varun Mannam
 #Contributors: Yide Zhang
 #Details: The Department of Electrical Engineering, The University of Notre Dame, South Bend, Indiana (IN), USA. Zip: 46556
 #email: vmannam@nd.edu
+paper: Instant Image Denoising Plugin for ImageJ using Convolutional Neural Networks
+https://www.osapublishing.org/abstract.cfm?uri=Microscopy-2020-MW2A.3
 
 Description: This is the plugin used to denoise any fluorescence microscopy image that contains combination of Poisson-Gaussian noise. This algorithm is developed by training the noisy microscopic images with the convolutional neural networks using the U-Net architecture.
-
-
-Noisy Input Image:
-![]Test_images/Raw_Images/Confocal_BPAE_cell_(RGB)_raw.png
-
-Denoised Output Image: From Neural network 
-![]Test_images/Image_Denoising_results/Confocal_BPAE_cell_(RGB)_denoised.png
 
 Steps to get a denoised image:
 1a. Open Fiji/ImageJ
@@ -29,5 +23,3 @@ Limitations:
 3. Speed is better in presence of GPU machine compared to the CPU version.
 4. 4D images support is not added yet this stage.
 5. GPU common errors are linking the CUDA drivers using symbolic names.
-
-
