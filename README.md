@@ -7,6 +7,13 @@ This is the github location for image denoising ImageJ tool and its source codee
 paper: Instant Image Denoising Plugin for ImageJ using Convolutional Neural Networks
 https://www.osapublishing.org/abstract.cfm?uri=Microscopy-2020-MW2A.3
 
+#Images: The test images can be downloaded from here https://curate.nd.edu/show/f4752f78z6t
+
+#Citation for dataset: Please cite the FMD dataset using the following format: 
+Mannam, Varun, Yide Zhang, and Scott Howard. “Fluorescence Microscopy Denoising (FMD) Dataset.” Notre Dame, April 21, 2019. https://doi.org/10.7274/r0-ed2r-4052.
+#DOI: 10.7274/r0-ed2r-4052
+
+
 Description: This is the plugin used to denoise any fluorescence microscopy image that contains combination of Poisson-Gaussian noise. This algorithm is developed by training the noisy microscopic images with the convolutional neural networks using the U-Net architecture.
 
 Steps to get a denoised image:
