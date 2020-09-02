@@ -9,6 +9,11 @@ link: https://www.osapublishing.org/abstract.cfm?uri=Microscopy-2020-MW2A.3
 Description: This is the plugin used to denoise any fluorescence microscopy image that contains combination of Poisson-Gaussian noise. This algorithm is developed by training the noisy microscopic images with the convolutional neural networks using the U-Net architecture.
 
 
+#Images: for the test images can be downloaded from here
+https://curate.nd.edu/show/f4752f78z6t
+Please cite the dataset using the following format: 
+Mannam, Varun, Yide Zhang, and Scott Howard. “Fluorescence Microscopy Denoising (FMD) Dataset.” Notre Dame, April 21, 2019. https://doi.org/10.7274/r0-ed2r-4052.
+
 Noisy Input Image:
 
 ![](Test_images/Raw_Images/Confocal_BPAE_cell_(RGB)_raw.png)
