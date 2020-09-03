@@ -37,5 +37,5 @@ Limitations:
 
 ## **Licence**
 
-Licensed under the [Apache License 2.0](https://github.com/ND-HowardGroup/Instant_image_denoising/blob/master/LICENSE)
+Licensed under the [Apache License 2.0](https://github.com/ND-HowardGroup/Image_denoising/blob/master/LICENSE)
 
